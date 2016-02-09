@@ -14,6 +14,7 @@
                 <attributeType name="Integer" />
                 <attributeType name="Long" />
                 <attributeType name="Float" />
+                <attributeType name="Decimal" />
             </attributeTypes>
         </property>
         <property key="minAttr" type="attribute">
@@ -24,6 +25,7 @@
                 <attributeType name="Integer" />
                 <attributeType name="Long" />
                 <attributeType name="Float" />
+                <attributeType name="Decimal" />
             </attributeTypes>
         </property>
         <property key="maxAttr" type="attribute">
@@ -34,6 +36,7 @@
                 <attributeType name="Integer" />
                 <attributeType name="Long" />
                 <attributeType name="Float" />
+                <attributeType name="Decimal" />
             </attributeTypes>
         </property>
         <property key="step" type="integer" required="true" defaultValue="10">
@@ -48,7 +51,7 @@
             <attributeTypes>
                 <attributeType name="Integer" />
                 <attributeType name="Long" />
-                <attributeType name="Float" />
+                <attributeType name="Decimal" />
             </attributeTypes>
         </property>
         <property key="orientation" type="enumeration" defaultValue="horizontal">
